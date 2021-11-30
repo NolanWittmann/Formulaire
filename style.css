@@ -1,0 +1,145 @@
+/* Police d'écriture */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+
+
+/*Fond d'écran*/
+body{
+    background: url(image/grey.jpg);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 5%;
+}
+
+/* Barre de nav */
+.logo
+{
+width: 40px;
+margin-top: 10px;
+}
+.flex
+{
+    display: flex;
+}
+ul
+{
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+}
+li{
+    margin-right: 100px;
+    margin-bottom: 25%;
+    
+}
+
+/* Point / log in en bleu */
+.blue{
+    color: rgb(47, 109, 189);
+}
+
+/* Taille et marges des textes */
+h1{
+    font-size: 4em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+h2{
+    font-size: 1.2;
+    font-weight: bolder;
+    
+}
+li{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+p{
+    font-size: 1.1em;
+    
+}
+ 
+/* Les inputs */
+form
+{
+  height: 250px;
+    
+}
+input
+{
+    height: 35%;
+   border-radius: 10px;
+    background-color: rgba(158, 154, 154, 0.3);    
+    
+    font-family: 'Outfit', sans-serif;
+}
+.mail_password
+{
+    margin-bottom: 10px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.taille
+{
+    width: 26%;
+    margin-right: 15px;
+    margin-bottom: 15px;  
+
+}
+.long
+{
+    width: 12%;
+    height: 65%;
+   margin-right: 15px;
+   background-image: url(image/form.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  
+   
+}
+.identity
+{
+    margin-bottom: 10px;
+    height: 50px;
+}
+.btn
+{
+    height: 50px;
+}
+.bouton
+{
+    height: 60%;
+    width: 12.6%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+#email
+{
+    background-image: url(image/mail.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#password
+{
+    background-image: url(image/oeil.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+footer{
+    background-image: url(image/footer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 70px;
+    width: 100%;
+}
+input:focus {
+    border: 2px solid blue;
+}
+#bleu
+{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+    
